@@ -1,0 +1,29 @@
+body {
+	background: url(../imagenes/fondo2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    color:#fff;
+    font-size: 16px;
+    background-position: 0px;
+}
+/*esta etiqueta sirve para hacer comentarios. con #000000 sirve para dar color nego a la pagina y con #fff para darle color blanco a las letra del documento y para cambiar color a ciertos documentos utilizar ejemplo: h1,h2,h3 { color:red y para cambiar el color de algo adentro de un parrafo se usa p a { font-size;(numero de pixeles)px;*/
+h1{color: #cc0000;}
+h2 { font-size: 18px;
+	color: #cc0000;
+}
+
+h3{color: grey;}
+
+table {     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;    margin: 30px;     width: 500px; text-align: center;    border-collapse: collapse;  }
+
+	th {     font-size: 13px;     font-weight: normal;     padding: 8px;     background: #000000;
+    border-top: 4px solid #333333;    border-bottom: 1px; solid #fff; color: #cc0000; }
+
+	td {    padding: 8px;     background: #333333;     border-bottom: 1px solid #cc0000;
+    color: #d0dafd;    border-top: 1px solid transparent; }
+
+	} tr:hover td { background: #d0dafd; color: #339; }
+
+	caption {color: #cc0000; font-size: 18px; }
+		
