@@ -1,0 +1,21 @@
+h1 {
+    color: red;
+}
+#parrafo1 {
+    color: aqua; 
+    border-style: solid; /*(dotted, dasched, double*/
+    border-color: greenyellow;
+    border-width:5px;
+}
+.parrafo {
+    color: orange;
+}
+#parrafo2 {
+    color : azure;
+    background-color: brown;
+}
+body {
+    background-color: #1BBC9B;
+    background-image: url("../img/fondo.jpg");
+}
+
