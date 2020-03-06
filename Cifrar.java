@@ -22,7 +22,7 @@ public class Cifrar {
                 }
             }
         }
-            System.out.println("La cadena inicial fue: " + palabra.toUpperCase());
-            System.out.println("La cadena cifrada con " + incremento + " es : " + palabraCifrada);
+            System.out.println("La palabra inicial fue: " + palabra.toUpperCase());
+            System.out.println("La palabra cifrada con " + incremento + " es : " + palabraCifrada);
     }
 }
