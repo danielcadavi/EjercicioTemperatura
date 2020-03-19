@@ -12,7 +12,6 @@ public class Descifrar {
             if (txt.charAt(i)>='a'&&txt.charAt(i)<='z'){
                 if ((txt.charAt(i)+cod)>'z') palCifrada.append((char)(txt.charAt(i)+cod-26)); 
                 else palCifrada.append((char)(txt.charAt(i)+cod));
-            
             } else if(txt.charAt(i)>='A'&&txt.charAt(i)<='Z'){   
                 if ((txt.charAt(i)+cod)>'Z') palCifrada.append((char)(txt.charAt(i)+cod-26));
                 else  palCifrada.append((char)(txt.charAt(i)+cod));
@@ -36,8 +35,7 @@ public class Descifrar {
         }
         return palCifrada.toString();
     }
-    public static void main(String[] args) throws IOException {
-        
+    public static void main(String[] args) throws IOException { 
         char op;
         String txt;
         int cod;
@@ -47,7 +45,7 @@ public class Descifrar {
         
         do{
            cod = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el código: "));
-        } while(cod<1);
+        } while(cod<1);   
         
         do{
             System.out.print("Ingrese (C) para cifrar o (D) para descifrar: ");
@@ -56,5 +54,4 @@ public class Descifrar {
         if(Character.toUpperCase(op)=='C')System.out.println("Texto cifrado es: "+cifrar(txt,cod));
         else System.out.println("Texto descifrado es: "+descifrar(txt,cod));
     }
-
 }
